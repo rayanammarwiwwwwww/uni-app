@@ -1,0 +1,112 @@
+/* ---------- Header ---------- */
+.header {
+    padding: 20px 10px 10px;
+}
+
+.header-title {
+    color: #6bb1ed;
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 0;
+}
+
+.header-subtitle {
+    font-size: 0.95rem;
+}
+
+/* ---------- Navbar ---------- */
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    border-bottom: 1px solid var(--border);
+}
+
+.navbar-link {
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: var(--text);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.navbar-link:hover {
+    color: #4a9de5;
+}
+
+.navbar-link.active {
+    background-color: #6bb1ed;
+    color: white;
+}
+
+/* ---------- Main ---------- */
+.main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 10px;
+}
+
+/* ---------- Student card ---------- */
+.student-card {
+    width: 100%;
+    max-width: 420px;
+    padding: 20px 16px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+.student-photo {
+    width: 7rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #f1f1f1;
+}
+
+.student-title {
+    margin: 4px 0 10px;
+    color: #6bb1ed;
+    font-weight: 400;
+}
+
+.student-info {
+    font-size: 1rem;
+    line-height: 1.4;
+}
+
+.student-info p {
+    margin: 8px 0;
+}
+
+.student-info strong {
+    color: var(--text-h);
+    font-weight: 700;
+}
+
+.contact-button {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 8px 20px;
+    background-color: #6bb1ed;
+    color: white;
+    border-radius: 4px;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: background-color 0.2s;
+}
+
+.contact-button:hover {
+    background-color: #4a9de5;
+    box-shadow: 0 0 3px #6bb1ed;
+}
+
+/* ---------- Footer ---------- */
+.footer {
+    padding: 16px 10px;
+    border-top: 1px solid var(--border);
+    font-size: 0.85rem;
+}
