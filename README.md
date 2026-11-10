@@ -1,6 +1,17 @@
-# Fiche étudiant
+# Uni App
 
-    npm install
-    npm run dev
+Annuaire des étudiants de la promo, fait avec React + Vite.
 
-Puis ouvrir http://localhost:5173
+## Lancer le projet
+
+```bash
+npm install
+npm run dev
+```
+
+## Fonctionnalités
+
+- Liste des étudiants sous forme de fiches
+- Recherche par nom, prénom, filière ou ville
+- Ajouter, modifier (prénom) et supprimer un étudiant
+- Afficher / masquer les coordonnées
